@@ -1,0 +1,54 @@
+{
+  "name": "@joduplessis/zero",
+  "title": "Zero",
+  "keywords": [
+    "Zero",
+    "Dependancy Injection"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "sideEffects": [
+    "lib/*"
+  ],
+  "pre-commit": [],
+  "files": [
+    "lib"
+  ],
+  "browserslist": [
+    "last 2 version",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 9"
+  ],
+  "repository": "https://github.com/joduplessis/zero",
+  "bugs": {
+    "url": "https://joduplessis.com",
+    "email": "jo@joduplessis.com"
+  },
+  "contributors": [
+    {
+      "name": "joduplessis"
+    }
+  ],
+  "homepage": "https://github.com/joduplessis/zero",
+  "deprecated": false,
+  "version": "0.0.0",
+  "description": "Zero is a zero fuss dependancy injector container.",
+  "scripts": {
+    "test": "",
+    "dev": "tsc -w -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
+    "lint": "tslint --project ./"
+  },
+  "author": "Jo du Plessis",
+  "license": "MIT",
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.5.3"
+  }
+}
