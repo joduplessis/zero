@@ -33,7 +33,7 @@
   ],
   "homepage": "https://github.com/joduplessis/zero",
   "deprecated": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Zero is a zero fuss dependancy injection container.",
   "scripts": {
     "test": "",
