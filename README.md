@@ -1,7 +1,7 @@
 
 # Zero
 
-> Zero is a zero fuss dependancy injector container
+> Zero is a zero fuss dependancy injection container
 
 ## Installation
 ```
